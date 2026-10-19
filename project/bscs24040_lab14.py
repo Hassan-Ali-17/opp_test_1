@@ -13,6 +13,10 @@ from sklearn.datasets import make_circles   # allowed ONLY for data generation i
 # TASK 1 - Data Synthesis and Preprocessing
 # ============================================================
 
+# ============================================================
+# TASK 1 - Data Synthesis and Preprocessing
+# ============================================================
+
 # Fix random seed so we get the same data every run
 np.random.seed(42)
 

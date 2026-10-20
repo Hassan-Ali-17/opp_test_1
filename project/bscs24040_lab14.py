@@ -38,6 +38,12 @@ mean = X.mean(axis=0)   # mean of each column
 std  = X.std(axis=0)    # std  of each column
 X = (X - mean) / std    # normalized data
 
+# Manual Standard Scaling  (no sklearn allowed!)
+# z = (x - mean) / std   done feature-by-feature
+mean = X.mean(axis=0)   # mean of each column
+std  = X.std(axis=0)    # std  of each column
+X = (X - mean) / std    # normalized data
+
 
 # ============================================================
 # TASK 2 - The NumpySVM Class

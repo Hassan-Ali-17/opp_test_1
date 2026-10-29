@@ -7,6 +7,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_circles   # allowed ONLY for data generation in Task 5
+from sklearn.datasets import make_circles   # allowed ONLY for data generation in Task 5
+
 
 
 # ============================================================
